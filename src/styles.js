@@ -4,6 +4,8 @@ export const GlobalStyle = createGlobalStyle`
 body{
   background-color: #B7B7A4;
   color:#404337;
+  // background-image: url("https://image.freepik.com/free-vector/avocado-pattern_53876-25667.jpg");
+  
 }
 `;
 export const Title = styled.h1`
@@ -37,9 +39,10 @@ button {
     margin-bottom:10px;
     min-width: 96px;
     border-radius: 4px;
-    // background-color: #fff;
+    background-color: #555A49;
     border: 1px solid;
-    // color: #fff;
+    color: #fff;
+    border-color: #555A49;
     -webkit-transition: background 0.2s ease;
     -moz-transition: background 0.2s ease;
     -o-transition: background 0.2s ease;
@@ -109,8 +112,8 @@ background-size: 73%;
 
 export const Guacimg = styled.img`
 position: absolute;
-width: 100%;
-height: 100%;
+width: 95%;
+height: 95%;
 left: 0;
 background-size: contain;
 background-repeat: no-repeat;

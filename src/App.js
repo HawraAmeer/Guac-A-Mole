@@ -31,7 +31,7 @@ function App() {
   return (
     <> 
       <GlobalStyle />
-      <Title>Guac-A-Mole</Title>
+      <Title>🥑 Guac-A-Mole 🥑</Title>
       <Mainsection>
         <Scorearea>
         <button className="primary" onClick={() => setTimeractive(!Timeractive)}>Start</button>
