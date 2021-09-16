@@ -9,22 +9,22 @@ body{
 }
 `;
 export const Title = styled.h1`
-color:#555A49;
-text-align: center;
-font-size:50px;
+  color: #555a49;
+  text-align: center;
+  font-size: 50px;
 `;
 export const Mainsection = styled.main`
-    width: 55%;
-    margin: 0 auto;  
+  width: 55%;
+  margin: 0 auto;
 `;
 
 export const Scorearea = styled.section`
-display: flex;
-justify-content: space-between;
-padding: 0 20px;
-font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-size: 30px;
 
-button {
+  button {
     position: relative;
     font-size: 16px;
     font-weight: 600;
@@ -36,90 +36,88 @@ button {
     align-items: center;
     justify-content: center;
     height: 46px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     min-width: 96px;
     border-radius: 4px;
-    background-color: #555A49;
+    background-color: #555a49;
     border: 1px solid;
     color: #fff;
-    border-color: #555A49;
+    border-color: #555a49;
     -webkit-transition: background 0.2s ease;
     -moz-transition: background 0.2s ease;
     -o-transition: background 0.2s ease;
     transition: background 0.2s ease;
 
     &.primary {
-        background-color: #555A49;
-        border-color: #555A49;
-        color: #fff;
-      }
-      
-      &.primary:hover {
-        background-color: #606553;
-        border-color: #606553;
-      }
-  }
+      background-color: #555a49;
+      border-color: #555a49;
+      color: #fff;
+    }
 
+    &.primary:hover {
+      background-color: #606553;
+      border-color: #606553;
+    }
+  }
 `;
 
-export const Playarea=styled.section `
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-border-style: solid;
-border-color: #D2D2C6;
-background-color:#D2D2C6;
-height:500px;
-`
+export const Playarea = styled.section`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-color: #d2d2c6;
+  background-color: #d2d2c6;
+  height: 500px;
+`;
 export const Ground = styled.section`
-display: inline-flex;
-flex: 1 1 25%;
-justify-content: center;
-align-items: center;
-padding: 10px;
-
-`
+  display: inline-flex;
+  flex: 1 1 25%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+`;
 export const Wrapperground = styled.div`
-position: relative;
-width: 40%;
-padding-bottom: 50%;
-overflow: hidden;
-`
+  position: relative;
+  width: 40%;
+  padding-bottom: 50%;
+  overflow: hidden;
+`;
 export const Holeimg = styled.img`
-position: absolute;
-width: 100%;
-height: 100%;
-left: 0;
-background-size: contain;
-background-repeat: no-repeat;
-z-index: 1;
-background-position: center 113%;
-`
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  background-position: center 113%;
+`;
 export const Avocimg = styled.img`
-position: absolute;
-width: 100%;
-height: 100%;
-left: 0;
-background-size: contain;
-background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
 
-transition: all 0.1s ease;
-// top: 100%;
-background-position: bottom;
-background-size: 73%;
-`
+  transition: all 0.1s ease;
+  // top: 100%;
+  background-position: bottom;
+  background-size: 73%;
+`;
 
 export const Guacimg = styled.img`
-position: absolute;
-width: 95%;
-height: 95%;
-left: 0;
-background-size: contain;
-background-repeat: no-repeat;
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  left: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
 
-transition: all 0.1s ease;
-top: 100%;
-background-position: bottom;
-background-size: 73%;
-`
+  transition: all 0.1s ease;
+  top: 100%;
+  background-position: bottom;
+  background-size: 73%;
+`;

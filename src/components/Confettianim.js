@@ -1,15 +1,16 @@
-import React from 'react'
-import Confetti from 'react-confetti'
+import React from "react";
+import Confetti from "react-confetti";
 
 const Confettianim = (props) => {
   // const { width, height } = useWindowSize()
-    return (
+  return (
     <>
-        { props.confettiActive ?  <Confetti
-      width={window.innerWidth}
-      height={"800px"}
-    /> : <></> }
-   </>
+      {props.confettiActive ? (
+        <Confetti width={window.innerWidth} height={"800px"} />
+      ) : (
+        <></>
+      )}
+    </>
   );
 };
 
